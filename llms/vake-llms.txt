@@ -1,0 +1,28 @@
+# VAKE
+
+> VAKE is a Norwegian maritime domain awareness company that detects, identifies, and tracks "dark vessels" from space. The VAKE platform fuses satellite imagery, AIS signals, and machine learning to reveal hidden vessel activity at sea for governments and industry. The platform is delivered as a web application (studio.vake.ai) backed by a private API (api.nemme.io); onboarding is sales-led rather than self-serve, so there is no public developer API, OpenAPI definition, or SDK at this time.
+
+## Products
+
+- [Pathfinder](https://docs.vake.ai/Pathfinder%20essentials/understand-a-pathfinder-track): Reconstructs a vessel's past, present, and predicted movements. Traces transmitted AIS signals, retrieves corresponding satellite images for visual inspection, and searches satellite imagery for vessels that go AIS-dark.
+- [Overwatch](https://docs.vake.ai/Overwatch%20essentials/understand-an-overwatch-area): Monitors an Area of Interest (AoI) around ports, critical infrastructure, and economic zones to surface unreported activity such as illegal fishing, transshipments, and spoofing, and to map heat spots for hidden activity over time.
+- [Clearview](https://docs.vake.ai/Getting%20started/concepts): A machine-learning service that identifies dark-vessel observations in multispectral satellite imagery against a global vessel-signature database spanning 2016 to today.
+
+## Docs
+
+- [VAKE Documentation](https://docs.vake.ai/): Product guides and onboarding resources.
+- [Start guide](https://docs.vake.ai/Getting%20started/start-guide): High-level onboarding walkthrough.
+- [Concepts](https://docs.vake.ai/Getting%20started/concepts): Core VAKE vocabulary and product concepts.
+- [Create your first subscription](https://docs.vake.ai/Getting%20started/create-your-first-subscription): Setting up your first report.
+- [Support and Feedback](https://docs.vake.ai/The%20Home%20Page/Support%20and%20Feedback): Getting help.
+
+## Links
+
+- [Website](https://vake.ai/)
+- [Application (VAKE Studio)](https://studio.vake.ai/)
+- [LinkedIn](https://www.linkedin.com/company/vake-ai/)
+
+## Notes
+
+- No public OpenAPI/Swagger, AsyncAPI, MCP server, SDK, CLI, or webhook catalog is published; the API at api.nemme.io is a private backend for the web application and returns 404 for undocumented paths.
+- Access is provided through a sales-led customer relationship; contact VAKE directly to establish an organization account.

@@ -1,7 +1,18 @@
 aid: vake
 name: Vake
-description: Vake is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VAKE is a Norwegian maritime domain awareness company that detects, identifies,
+  and tracks "dark vessels" from space. The VAKE platform fuses satellite imagery,
+  AIS signals, and machine learning to reveal hidden vessel activity at sea for
+  governments and industry. Its three products are Pathfinder, which reconstructs a
+  vessel's past, present, and predicted movements and searches satellite imagery for
+  vessels that go AIS-dark; Overwatch, which monitors an Area of Interest around ports,
+  critical infrastructure, and economic zones to surface unreported activity such as
+  illegal fishing, transshipments, and spoofing; and Clearview, a machine-learning
+  service that identifies dark-vessel observations in multispectral satellite imagery
+  against a global vessel-signature database spanning 2016 to today. The platform is
+  delivered as a web application (studio.vake.ai) backed by a private API (api.nemme.io);
+  onboarding is sales-led rather than self-serve.
 url: https://raw.githubusercontent.com/api-evangelist/vake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,33 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://docs.vake.ai/img/vake_boxed_logo.jpg
 tags:
 - Company
+- Maritime
+- Maritime Domain Awareness
+- Satellite Imagery
+- Vessel Tracking
+- AIS
+- Geospatial
+- Machine Learning
+- Dark Vessels
+- Defense
+- Situational Awareness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vake-domain-security.yml
 - type: Website
   url: https://vake.ai/
+- type: Documentation
+  url: https://docs.vake.ai/
+- type: GettingStarted
+  url: https://docs.vake.ai/Getting%20started/start-guide
+- type: Login
+  url: https://studio.vake.ai/
+- type: Support
+  url: https://docs.vake.ai/The%20Home%20Page/Support%20and%20Feedback
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vake-ai/
+- type: LLMsTxt
+  url: llms/vake-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
