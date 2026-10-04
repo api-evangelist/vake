@@ -54,7 +54,7 @@ tags:
 - Vessel Tracking
 - AIS
 - Geospatial
-- Machine-Learning
+- Machine Learning
 - Dark Vessels
 - Defense
 - Situational Awareness
@@ -70,6 +70,7 @@ tags_raw:
 - Dark Vessels
 - Defense
 - Situational Awareness
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
